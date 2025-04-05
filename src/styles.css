@@ -1,5 +1,7 @@
 :root {
   --reddish-brown: #BB4444;
+  --left-border-spacing: 10px;
+  --left-padding-spacing: 5px;
 }
 
 img {
@@ -18,9 +20,13 @@ body {
 }
 
 h1 {
-  border-left: 10px solid var(--reddish-brown);
-  padding-left: 5px;
+  border-left: var(--left-border-spacing) solid var(--reddish-brown);
+  padding-left: var(--left-padding-spacing);
 }
+
+h2 {
+  border-left: var(--left-border-spacing) solid darkgray;
+  padding-left: var(--left-padding-spacing);
 
 span {
   display: inline-flex;
