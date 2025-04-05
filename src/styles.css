@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  border-left: var(--left-border-spacing) solid darkgray;
+  border-left: calc(var(--left-border-spacing) - 2px) solid darkgray;
   padding-left: var(--left-padding-spacing);
 
 span {
