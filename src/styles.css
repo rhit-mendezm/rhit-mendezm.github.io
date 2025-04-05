@@ -7,7 +7,10 @@ img {
   
   border: 4px solid var(--reddish-brown);
   border-radius: 10px;
-  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 body {
