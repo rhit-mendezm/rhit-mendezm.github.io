@@ -16,5 +16,7 @@ body {
 }
 
 span {
+  display: inline-flex;
+
   text-align: right;
 }
