@@ -1,7 +1,11 @@
+:root {
+  --reddish-brown: #BB4444;
+}
+
 img {
   width: 300px;
   
-  border: 4px solid darkgray;
+  border: 4px solid var(--reddish-brown);
   border-radius: 10px;
 }
 
