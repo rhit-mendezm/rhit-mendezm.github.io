@@ -35,3 +35,9 @@ h2 {
   display: grid;
   grid-template-columns: 7fr 2fr;
 }
+
+.parent-list-item {
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
