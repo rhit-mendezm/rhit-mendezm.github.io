@@ -4,5 +4,11 @@ img {
 
 body {
   background-color: lightblue;
+  
+  font: "Helvetica, Arial, Georgia, Times New Roman";
   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font: "Playfair Display";
 }
