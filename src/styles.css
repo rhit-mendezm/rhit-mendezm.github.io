@@ -1,6 +1,5 @@
 :root {
   --reddish-brown: #BB4444;
-  --left-border-spacing: 10px;
   --left-padding-spacing: 5px;
 }
 
@@ -22,12 +21,12 @@ body {
 }
 
 h1 {
-  border-left: var(--left-border-spacing) solid var(--reddish-brown);
+  border-left: 10px solid var(--reddish-brown);
   padding-left: var(--left-padding-spacing);
 }
 
 h2 {
-  border-left: calc(var(--left-border-spacing) - 2px) solid darkgray;
+  border-left: 4px solid darkgray;
   padding-left: var(--left-padding-spacing);
 
 span {
