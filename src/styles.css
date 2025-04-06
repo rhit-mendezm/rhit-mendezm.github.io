@@ -9,6 +9,9 @@
 nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+  background-color: var(--reddish-brown);
+  padding: 20px;
 }
 
 nav a {
