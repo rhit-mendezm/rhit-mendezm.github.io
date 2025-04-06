@@ -55,3 +55,8 @@ ol {
   border-left: var(--h3-and-job-position-left-border);
   padding: var(--h3-and-job-position-padding);
 }
+
+.hide-list-style {
+  list-style-type: none;
+}
+
