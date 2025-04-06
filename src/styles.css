@@ -51,11 +51,6 @@ ol {
   grid-template-columns: 7fr 2fr;
 }
 
-.parent-list-item {
-  text-decoration: underline;
-  font-size: 1.2rem;
-}
-
 .job-position {
   border-left: var(--h3-and-job-position-left-border);
   padding: var(--h3-and-job-position-padding);
