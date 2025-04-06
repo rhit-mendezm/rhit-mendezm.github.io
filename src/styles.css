@@ -1,6 +1,7 @@
 :root {
   --reddish-brown: #BB4444;
   --left-padding-spacing: 5px;
+  --h3-and-job-position-left-border: 10px solid yellow;
 }
 
 img {
@@ -26,6 +27,8 @@ h2 {
 }
 
 h3 {
+  border-left: var(--h3-and-job-position-left-border);
+  padding: 0px 5px;
   margin: 0px;
 }
 
@@ -51,3 +54,6 @@ ol {
   font-size: 1.2rem;
 }
 
+.job-position {
+  border-left: var(--h3-and-job-position-left-border);
+}
