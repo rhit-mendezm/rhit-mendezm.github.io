@@ -113,7 +113,8 @@ a:active {
 }
 
 .marlon-name {
-  text-decoration: bold;
   font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
 }
 
