@@ -31,7 +31,8 @@ h3 {
 
 ol {
   list-style-type: none;
-  padding-left: 30px solid yellow;
+  border-left: 30px solid yellow;
+  padding-left: 0px; 
 }
 
 .flex-center {
