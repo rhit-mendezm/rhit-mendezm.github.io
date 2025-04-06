@@ -58,6 +58,9 @@ ol {
 
 .hide-list-style {
   list-style-type: none;
+}
+
+.indent {
   text-indent: 2em;
 }
 
