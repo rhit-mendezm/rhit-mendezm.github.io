@@ -58,6 +58,23 @@ ol {
   padding-left: 20px; 
 }
 
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  background-color: lightgreen;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size:1.2em;
+  text-decoration: none;
+  height: 70px;
+}
+
 a:hover {
   color: red;
 }
