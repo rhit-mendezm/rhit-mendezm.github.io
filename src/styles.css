@@ -6,6 +6,16 @@
   --h3-and-job-position-padding: 0px 5px;
 }
 
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+nav a {
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   width: 300px;
   
