@@ -25,6 +25,10 @@ h2 {
   margin-bottom: 0px;
 }
 
+ol {
+  list-style-type: none;
+}
+
 .flex-center {
   display: flex;
   flex-direction: column;
