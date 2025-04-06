@@ -10,7 +10,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
-  background-color: var(--reddish-brown);
+  background-color: darkgray;
   padding: 20px;
 }
 
