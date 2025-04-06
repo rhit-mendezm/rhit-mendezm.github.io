@@ -11,7 +11,6 @@ nav {
   grid-template-columns: repeat(3, 1fr);
 
   background-color: lightgreen;
-  padding: 20px;
 }
 
 nav a {
