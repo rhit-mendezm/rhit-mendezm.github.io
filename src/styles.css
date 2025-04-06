@@ -60,6 +60,10 @@ ol {
   list-style-type: none;
 }
 
+.last-list-item {
+  margin-bottom: 5px;
+}
+
 .indent {
   text-indent: 2em;
 }
