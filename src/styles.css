@@ -54,10 +54,10 @@ ol {
 .job-position {
   border-left: var(--h3-and-job-position-left-border);
   padding: var(--h3-and-job-position-padding);
-  text-indent: 2em;
 }
 
 .hide-list-style {
   list-style-type: none;
+  text-indent: 2em;
 }
 
