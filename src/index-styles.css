@@ -1,7 +1,38 @@
-.headshot {
-    height: 300px;
+body {
+    display: grid;
+    grid-template-areas: 
+        "greeting greeting greeting"
+        "headshot description-of-studies rose-hulman-logo"
+        "headshot experiences kratos-logo"
+        "headshot experiences ventures-logo"
+        "aspirations aspirations aspirations";
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
-.rose-logo {
+.description-of-studies {
+    grid-area: description-of-studies;
+}
+
+.greeting {
+    grid-area: greeting;
+}
+
+.headshot {
+    height: 300px;
+    grid-area: headshot;
+}
+
+.kratos-logo {
     height: 250px;
+    grid-area: kratos-logo;
+}
+
+.rose-hulman-logo {
+    height: 250px;
+    grid-area: rose-hulman-logo
+}
+
+.ventures-logo {
+    height: 200px;
+    grid-area: ventures-logo;
 }
