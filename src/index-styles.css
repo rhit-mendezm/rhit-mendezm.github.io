@@ -2,6 +2,10 @@ a {
     display: grid;
 }
 
+body {
+    display: grid;
+}
+
 main {
     display: grid;
     grid-template-areas: 
