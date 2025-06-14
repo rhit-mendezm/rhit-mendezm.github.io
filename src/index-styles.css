@@ -8,8 +8,16 @@ main {
     grid-template-columns: 1fr 4fr 1fr;
 }
 
+.aspirations {
+    grid-area: aspirations;
+}
+
 .description-of-studies {
     grid-area: description-of-studies;
+}
+
+.experiences {
+    grid-area: experiences;
 }
 
 .greeting {
