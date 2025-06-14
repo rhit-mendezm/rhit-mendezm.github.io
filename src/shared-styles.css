@@ -4,12 +4,16 @@
   --dark-mode-black: #252525;
 }    
 
+ a {
+  color: white;
+ }
+
 a:hover {
-  color: red;
+  color: purple;
 }
 
 a:active {
-  background-color: yellow;
+  background-color: #656565;
 }
 
 body {
