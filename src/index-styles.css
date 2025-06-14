@@ -1,4 +1,4 @@
-body {
+main {
     display: grid;
     grid-template-areas: 
         "greeting greeting greeting"
