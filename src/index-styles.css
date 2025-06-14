@@ -3,8 +3,8 @@ main {
     grid-template-areas: 
         "greeting greeting greeting"
         "headshot description-of-studies rose-hulman-logo"
-        "headshot experiences kratos-and-ventures-logos"
-        "aspirations aspirations aspirations";
+        "headshot experiences kratos-logo"
+        "aspirations aspirations ventures-logo";
     grid-template-columns: 1fr 4fr 1fr;
 }
 
@@ -24,15 +24,6 @@ main {
     grid-area: headshot;
 }
 
-.kratos-and-ventures-logos {
-    display: grid;
-    grid-template-areas: 
-        "kratos-logo"
-        "ventures-logo";
-
-    grid-area: kratos-and-ventures-logo;
-}
-
 .kratos-logo {
     width: 250px;
     grid-area: kratos-logo;
@@ -47,6 +38,6 @@ main {
     width: 200px;
     border: 4px solid var(--reddish-brown);
     border-radius: 400px;
-    
+
     grid-area: ventures-logo;
 }
