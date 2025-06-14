@@ -15,7 +15,7 @@ nav {
   background-color: var(--nav-and-footer-background-color);
 }
 
-nav a {
+nav > a {
   display: flex;
   justify-content: center;
   align-items: center;
