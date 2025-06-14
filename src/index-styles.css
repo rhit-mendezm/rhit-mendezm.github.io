@@ -13,6 +13,10 @@ main {
     grid-area: aspirations;
 }
 
+.description-of-experiences {
+    grid-area: description-of-experiences;
+}
+
 .description-of-studies {
     grid-area: description-of-studies;
 }
