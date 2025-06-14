@@ -9,7 +9,7 @@
  }
 
 a:hover {
-  color: purple;
+  color: var(--reddish-brown);
 }
 
 a:active {
