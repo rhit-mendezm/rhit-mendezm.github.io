@@ -1,5 +1,6 @@
 :root {
   --reddish-brown: #BB4444;
+  --black: #252525;
   --left-padding-spacing: 5px;
 
   --nav-and-footer-background-color: beige;
@@ -40,26 +41,8 @@ img {
 }
 
 body {
-  background-color: lightgray;
-  margin: 0px;
-}
-
-h1 {
-  border-left: 10px solid var(--reddish-brown);
-  padding-left: var(--left-padding-spacing);
-  margin-top: 10px;
-}
-
-h2 {
-  border-left: 8px solid darkgray;
-  padding-left: var(--left-padding-spacing);
-  margin-bottom: 0px;
-}
-
-h3 {
-  border-left: var(--h3-and-job-position-left-border);
-  padding: var(--h3-and-job-position-padding);
-  margin: 0px;
+  background-color: var(--black);
+  margin: 0 auto;
 }
 
 ol {
@@ -74,7 +57,7 @@ footer {
   background-color: var(--nav-and-footer-background-color);
 }
 
-footer a {
+footer > a {
   display: flex;
   justify-content: center;
   align-items: center;
