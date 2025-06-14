@@ -26,16 +26,16 @@ main {
 }
 
 .kratos-logo {
-    height: 250px;
+    width: 250px;
     grid-area: kratos-logo;
 }
 
 .rose-hulman-logo {
-    height: 250px;
+    width: 250px;
     grid-area: rose-hulman-logo
 }
 
 .ventures-logo {
-    height: 200px;
+    width: 200px;
     grid-area: ventures-logo;
 }
