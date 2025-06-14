@@ -6,7 +6,7 @@ main {
         "headshot experiences kratos-logo"
         "headshot experiences ventures-logo"
         "aspirations aspirations aspirations";
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
 }
 
 .description-of-studies {
