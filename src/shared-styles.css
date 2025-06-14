@@ -18,7 +18,7 @@ a:active {
 
 body {
   background-color: var(--dark-mode-black);
-  margin: 0 auto;
+  margin: 0 1rem;
   color: white;
 }  
 
