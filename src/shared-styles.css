@@ -1,5 +1,5 @@
 :root {
-  --nav-and-footer-background-color: darkblue;
+  --header-and-footer-background-color: #707070;
   --reddish-brown: #BB4444;
   --dark-mode-black: #252525;
 }
@@ -8,7 +8,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
-  background-color: var(--nav-and-footer-background-color);
+  background-color: var(--header-and-footer-background-color);
 }
 
 nav > a {
@@ -45,7 +45,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
-  background-color: var(--nav-and-footer-background-color);
+  background-color: var(--header-and-footer-background-color);
 }
 
 footer > a {
