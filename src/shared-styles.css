@@ -1,12 +1,7 @@
 :root {
+  --nav-and-footer-background-color: darkblue;
   --reddish-brown: #BB4444;
-  --black: #252525;
-  --left-padding-spacing: 5px;
-
-  --nav-and-footer-background-color: beige;
-
-  --h3-and-job-position-left-border: 4px solid yellow;
-  --h3-and-job-position-padding: 0px 5px;
+  --dark-mode-black: #252525;
 }
 
 nav {
@@ -41,13 +36,8 @@ img {
 }
 
 body {
-  background-color: var(--black);
+  background-color: var(--dark-mode-black);
   margin: 0 auto;
-}
-
-ol {
-  list-style-type: none;
-  padding-left: 20px; 
 }
 
 footer {
@@ -73,46 +63,4 @@ a:hover {
 
 a:active {
   background-color: yellow;
-}
-
-.flex-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.two-grid-boxes {
-  display: grid;
-  grid-template-columns: 7fr 2fr;
-}
-
-.job-position {
-  border-left: var(--h3-and-job-position-left-border);
-  padding: var(--h3-and-job-position-padding);
-}
-
-.hide-list-style {
-  list-style-type: none;
-}
-
-.last-list-item {
-  margin-bottom: 10px;
-}
-
-.indent {
-  text-indent: 2em;
-}
-
-.align-right {
-  text-align: right;
-  margin-right: 20px;
-}
-
-.rose-logo {
-  width: 0.5rem;
-}
-
-.headshot {
-  width: 1rem;
 }
