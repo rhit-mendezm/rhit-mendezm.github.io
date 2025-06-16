@@ -1,3 +1,7 @@
+a > img:hover {
+    background-color: var(--dark-mode-black);
+}
+
 main {
     display: grid;
     grid-template-areas: 
