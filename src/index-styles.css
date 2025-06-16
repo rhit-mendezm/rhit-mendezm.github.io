@@ -1,4 +1,4 @@
-a > img:hover {
+main > a:active {
     background-color: var(--dark-mode-black);
 }
 
