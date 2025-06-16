@@ -8,6 +8,10 @@ a {
   color: white;
 }
 
+a > i {
+    margin: 0 0 8px 0;
+}
+
 a:active {
   background-color: black;
 }
