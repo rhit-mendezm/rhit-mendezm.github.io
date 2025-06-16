@@ -1,9 +1,3 @@
-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 main {
     display: grid;
     grid-template-areas: 
@@ -33,6 +27,12 @@ ul {
 
 ul > li {
     font-size: large;
+}
+
+.anchor-with-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aspirations {
