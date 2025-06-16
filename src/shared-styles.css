@@ -16,10 +16,6 @@ a:hover {
   color: var(--reddish-brown);
 }
 
-a:visited {
-  color: var(--reddish-brown);
-}
-
 body {
   background-color: var(--dark-mode-black);
   margin: 0;
