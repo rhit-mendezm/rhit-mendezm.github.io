@@ -74,6 +74,7 @@ ul > li {
 
 .rose-hulman-logo {
     width: 250px;
+    border-radius: 90px;
     grid-area: rose-hulman-logo
 }
 
