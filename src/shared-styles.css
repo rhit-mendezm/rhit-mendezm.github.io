@@ -7,13 +7,13 @@
  a {
   color: white;
  }
+ 
+ a:active {
+   background-color: #656565;
+ }
 
 a:hover {
   color: var(--reddish-brown);
-}
-
-a:active {
-  background-color: #656565;
 }
 
 body {
