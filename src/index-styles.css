@@ -9,6 +9,14 @@ main {
     grid-template-columns: 1fr 4fr 1fr;
 }
 
+p > a {
+    color: var(--reddish-brown);
+}
+
+p > a:active {
+    background-color: var(--dark-mode-black);
+}
+
 ul {
     font-size: larger;
 }
