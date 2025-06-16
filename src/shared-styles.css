@@ -4,13 +4,13 @@
   --dark-mode-black: #2f2f2f;
 }    
 
- a {
+a {
   color: white;
- }
- 
- a:active {
+}
+
+a:active {
   background-color: #656565;
- }
+}
 
 a:hover {
   color: var(--reddish-brown);
