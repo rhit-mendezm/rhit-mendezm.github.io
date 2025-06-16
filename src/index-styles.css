@@ -8,6 +8,14 @@ main {
     grid-template-columns: 1fr 4fr 1fr;
 }
 
+ul {
+    font-size: larger;
+}
+
+ul > li {
+    font-size: large;
+}
+
 .aspirations {
     grid-area: aspirations;
 }
