@@ -19,7 +19,9 @@ a:active {
 body {
   background-color: var(--dark-mode-black);
   margin: 0;
+
   color: white;
+  font-family: 'Roboto', sans-serif;
 }  
 
 footer {
