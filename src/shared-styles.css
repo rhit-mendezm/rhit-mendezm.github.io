@@ -28,13 +28,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }  
 
-/* footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  
-  background-color: var(--header-and-footer-background-color);
-} */
-
 main {
   margin: 0 1rem;
 
