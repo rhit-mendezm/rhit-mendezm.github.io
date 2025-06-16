@@ -13,6 +13,10 @@ main {
     grid-template-columns: 1fr 4fr 1fr;
 }
 
+nav > i {
+    margin: 0 0 8px 0;
+}
+
 p > a {
     color: var(--reddish-brown);
 }
