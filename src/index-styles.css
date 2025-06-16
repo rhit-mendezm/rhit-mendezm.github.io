@@ -4,7 +4,8 @@ main {
         "greeting greeting greeting"
         "headshot description-of-studies rose-hulman-logo"
         "headshot experiences kratos-logo"
-        "aspirations aspirations ventures-logo";
+        "headshot experiences ventures-logo"
+        "aspirations aspirations aspirations";
     grid-template-columns: 1fr 4fr 1fr;
 }
 
