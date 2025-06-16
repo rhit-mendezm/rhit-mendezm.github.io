@@ -1,5 +1,5 @@
 :root {
-  --header-and-footer-background-color: #707070;
+  --header-and-footer-background-color: #1f1f1f;
   --reddish-brown: #BB4444;
   --dark-mode-black: #2f2f2f;
 }    
@@ -9,11 +9,11 @@ a {
 }
 
 a:active {
-  background-color: #656565;
+  background-color: black;
 }
 
 a:hover {
-  color: var(--dark-mode-black);
+  color: var(--reddish-brown);
 }
 
 body {
