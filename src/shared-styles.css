@@ -68,3 +68,8 @@ nav > a {
 p {
   font-size: larger;
 }
+
+.emoji {
+  margin: 0;
+  font-size: xx-large;
+}
