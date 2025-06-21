@@ -1,27 +1,30 @@
-main > a:active {
+main>a:active {
     background-color: var(--dark-mode-black);
 }
 
 main {
     display: grid;
-    grid-template-areas: 
-        "greeting greeting greeting"
-        "headshot description-of-studies rose-hulman-logo"
-        "headshot experiences kratos-logo"
-        "headshot experiences ventures-logo"
-        "headshot aspirations ventures-logo";
+    grid-template-areas:
+    "greeting greeting greeting"
+    "headshot description-of-studies rose-hulman-logo"
+    "headshot experiences kratos-logo"
+    "headshot experiences ventures-logo"
+    "headshot aspirations ventures-logo";
     grid-template-columns: 1fr 4fr 1fr;
+    
+    align-items: center;
+    justify-content: center;
 }
 
-p > a {
+p>a {
     color: var(--reddish-brown);
 }
 
-p > a:active {
+p>a:active {
     background-color: var(--dark-mode-black);
 }
 
-p > a:hover {
+p>a:hover {
     color: white;
 }
 
@@ -29,7 +32,7 @@ ul {
     font-size: larger;
 }
 
-ul > li {
+ul>li {
     font-size: large;
 }
 
@@ -67,7 +70,7 @@ ul > li {
 .headshot {
     height: 300px;
     align-self: flex-start;
-    
+
     grid-area: headshot;
 }
 
