@@ -54,6 +54,14 @@ p {
   font-size: larger;
 }
 
+.active-tab {
+  background-color: var(--reddish-brown);
+}
+
+.active-tab:hover {
+  color: white;
+}
+
 .emoji {
   margin: 0;
   font-size: xx-large;
