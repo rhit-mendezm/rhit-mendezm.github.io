@@ -2,14 +2,14 @@
   --header-and-footer-background-color: #1f1f1f;
   --reddish-brown: #BB4444;
   --dark-mode-black: #2f2f2f;
-}    
+}
 
 a {
   color: white;
 }
 
-a > i {
-    margin: 0 8px 0 0;
+a>i {
+  margin: 0 8px 0 0;
 }
 
 a:active {
@@ -26,29 +26,29 @@ body {
 
   color: white;
   font-family: 'Roboto', sans-serif;
-}  
+}
 
 main {
   margin: 0 1rem;
-}    
+}
 
 nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
   background-color: var(--header-and-footer-background-color);
-}    
+}
 
-nav > a {
+nav>a {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  font-size:1.5em;
+  font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
   height: 70px;
-}    
+}
 
 p {
   font-size: larger;
