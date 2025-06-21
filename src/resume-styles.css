@@ -7,13 +7,13 @@ h3 {
 }
 
 .date-range {
-    font-size: small;
+    font-size: medium;
     text-decoration: underline;
     margin: 0;
 }
 
 .job-title {
-    font-size: medium;
+    font-size: large;
     font-style: italic;
     margin: 0;
 }
