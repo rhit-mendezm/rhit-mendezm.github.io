@@ -58,6 +58,14 @@ p {
   font-size: larger;
 }
 
+ul {
+    font-size: larger;
+}
+
+ul>li {
+    font-size: large;
+}
+
 .active-tab {
   background-color: var(--reddish-brown);
 }

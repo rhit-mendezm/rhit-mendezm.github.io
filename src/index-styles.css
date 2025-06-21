@@ -28,14 +28,6 @@ p>a:hover {
     color: white;
 }
 
-ul {
-    font-size: larger;
-}
-
-ul>li {
-    font-size: large;
-}
-
 .anchor-with-image {
     display: flex;
     justify-content: center;
