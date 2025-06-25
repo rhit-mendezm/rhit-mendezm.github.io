@@ -8,12 +8,11 @@ h3 {
 
 .date-range {
     font-size: large;
-    text-decoration: underline;
+    font-style: italic;
     margin: 0;
 }
 
 .employer-name {
-    font-size: larger;
-    font-style: italic;
+    font-size: large;
     margin: 0;
 }
