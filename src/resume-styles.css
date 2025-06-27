@@ -6,12 +6,6 @@ h3 {
     margin-bottom: 0;
 }
 
-td {
-    border: 1px solid #ccc;
-    font-size: 1.2em;
-}
-
-
 .date-range {
     font-size: large;
     font-style: italic;
@@ -24,8 +18,10 @@ td {
 }
 
 .languages {
-    font-size: larger;
-    width: 100%;
-    border-collapse: collapse;
+    margin: auto;
     text-align: center;
+
+    width: 80%;
+    font-size: xx-large;
+    border-collapse: collapse;
 }
