@@ -7,9 +7,9 @@ main {
     grid-template-areas:
     "greeting greeting greeting"
     "headshot description-of-studies rose-hulman-logo"
-    "headshot experiences kratos-logo"
-    "headshot experiences ventures-logo"
-    "headshot aspirations ventures-logo";
+    ". experiences kratos-logo"
+    ". experiences ventures-logo"
+    ". aspirations .";
     grid-template-columns: 1fr 4fr 1fr;
     
     align-items: center;
