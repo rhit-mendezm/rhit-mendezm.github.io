@@ -87,12 +87,12 @@ main {
         grid-template-areas:
             "headshot description-of-studies"
             "software-quality-assurance rose-hulman-logo"
-            "web-programming ."
-            "computer-architecture ."
-            "experiences ."
+            "web-programming web-programming"
+            "computer-architecture computer-architecture"
+            "experiences experiences"
             "kratos-logo ventures-logo"
-            "extracurriculars ."
-            "aspirations ."
-            "contact-information .";
+            "extracurriculars extracurriculars"
+            "aspirations aspirations"
+            "contact-information contact-information";
     }
 }
