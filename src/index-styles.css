@@ -54,8 +54,8 @@ p>a:hover {
 
 .headshot {
     height: 300px;
+    border-radius: 400px;
     align-self: flex-start;
-
     grid-area: headshot;
 }
 
