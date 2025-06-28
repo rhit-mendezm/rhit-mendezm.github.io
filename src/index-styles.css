@@ -97,5 +97,6 @@ main {
             "extracurriculars"
             "aspirations"
             "contact-information";
+        justify-items: center;
     }
 }
