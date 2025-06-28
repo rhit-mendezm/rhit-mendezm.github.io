@@ -82,7 +82,7 @@ main {
     grid-area: web-programming;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 600px) {
     main {
         grid-template-areas:
             "headshot description-of-studies"

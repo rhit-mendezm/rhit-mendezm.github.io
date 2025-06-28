@@ -108,7 +108,7 @@ ul>li {
   border: 4px solid var(--reddish-brown);
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 600px) {
   main {
     margin: 0 1rem;
     display: grid;
