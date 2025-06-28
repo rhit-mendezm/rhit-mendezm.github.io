@@ -8,18 +8,6 @@ main {
         ". contact-information .";
 }
 
-p>a, li>a {
-    color: var(--reddish-brown);
-}
-
-p>a:active, li>a:active {
-    background-color: var(--dark-mode-black);
-}
-
-p>a:hover, li>a:hover {
-    color: white;
-}
-
 .aspirations {
     grid-area: aspirations;
 }
