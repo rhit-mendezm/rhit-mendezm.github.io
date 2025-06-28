@@ -95,10 +95,12 @@ main {
 @media (max-width: 600px) {
     main {
         grid-template-areas:
-            "programming-languages ."
-            "ubuntu-logo almalinux-logo"
-            "internships ."
-            "openspace-logo eramx-logo"
-            "education .";
+            "programming-languages"
+            "ubuntu-logo"
+            "almalinux-logo"
+            "internships"
+            "openspace-logo"
+            "eramx-logo"
+            "education";
     }
 }

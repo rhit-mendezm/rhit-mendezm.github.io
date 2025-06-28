@@ -43,12 +43,12 @@ main {
 @media (max-width: 600px) {
     main {
         grid-template-areas:
-            "introduction ."
-            "fizzier-fizz ."
-            "fizz-logo ."
-            "betrayal-at-house-on-the-hill ."
+            "introduction"
+            "fizzier-fizz"
+            "fizz-logo"
+            "betrayal-at-house-on-the-hill"
             "betrayal-at-house-on-the-hill-board-game-cover ."
-            "risc-v-assembler ."
-            "risc-v-logo .";
+            "risc-v-assembler"
+            "risc-v-logo";
     }
 }

@@ -85,14 +85,17 @@ main {
 @media (max-width: 600px) {
     main {
         grid-template-areas:
-            "headshot description-of-studies"
-            "software-quality-assurance rose-hulman-logo"
-            "web-programming web-programming"
-            "computer-architecture computer-architecture"
-            "experiences experiences"
-            "kratos-logo ventures-logo"
-            "extracurriculars extracurriculars"
-            "aspirations aspirations"
-            "contact-information contact-information";
+            "headshot"
+            "description-of-studies"
+            "rose-hulman-logo"
+            "software-quality-assurance"
+            "web-programming"
+            "computer-architecture"
+            "experiences"
+            "kratos-logo"
+            "ventures-logo"
+            "extracurriculars"
+            "aspirations"
+            "contact-information";
     }
 }

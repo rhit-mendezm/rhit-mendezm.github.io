@@ -113,9 +113,9 @@ ul>li {
   header {
     width: max-content;
   }
-  
+
   main {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   
   nav>a {
