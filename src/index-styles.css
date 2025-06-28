@@ -23,12 +23,6 @@ p>a:hover, li>a:hover {
     color: white;
 }
 
-.anchor-with-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .aspirations {
     grid-area: aspirations;
 }

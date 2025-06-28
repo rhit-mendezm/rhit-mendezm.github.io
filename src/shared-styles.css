@@ -78,3 +78,9 @@ ul>li {
 .active-tab:hover {
   color: white;
 }
+
+.anchor-with-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
