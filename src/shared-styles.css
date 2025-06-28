@@ -110,11 +110,6 @@ ul>li {
 
 @media (max-width: 600px) {
   main {
-    margin: 0 1rem;
-    display: grid;
-
-    align-items: center;
-    justify-content: center;
     grid-template-columns: 1fr 1fr;
   }
 }
