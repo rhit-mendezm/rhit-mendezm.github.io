@@ -10,6 +10,8 @@ main {
 }
 
 .almalinux-logo {
+    border-radius: 70px;
+    background-color: white;
     grid-area: almalinux-logo;
 }
 
@@ -60,5 +62,6 @@ main {
 }
 
 .ubuntu-logo {
+    border-radius: 80px;
     grid-area: ubuntu-logo;
 }
