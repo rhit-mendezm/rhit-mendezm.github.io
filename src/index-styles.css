@@ -62,3 +62,16 @@ main {
 
     grid-area: ventures-logo;
 }
+
+@media (max-width: 1400px) {
+    main {
+        grid-template-areas:
+            "headshot description-of-studies"
+            ". rose-hulman-logo"
+            "experiences ."
+            "kratos-logo ventures-logo"
+            "extracurriculars ."
+            "aspirations ."
+            "contact-information .";
+    }
+}

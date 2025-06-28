@@ -3,7 +3,7 @@ h3 {
 }
 
 main {
-    grid-template-areas: 
+    grid-template-areas:
         "ubuntu-logo programming-languages almalinux-logo"
         "openspace-logo internships eramx-logo"
         ". education .";
@@ -90,4 +90,15 @@ main {
     width: 100px;
     border-radius: 80px;
     grid-area: ubuntu-logo;
+}
+
+@media (max-width: 1400px) {
+    main {
+        grid-template-areas:
+            "programming-languages ."
+            "ubuntu-logo almalinux-logo"
+            "internships ."
+            "openspace-logo eramx-logo"
+            "education .";
+    }
 }

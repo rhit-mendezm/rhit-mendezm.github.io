@@ -1,5 +1,5 @@
 main {
-    grid-template-areas: 
+    grid-template-areas:
         ". introduction ."
         "fizz-logo fizzier-fizz ."
         ". betrayal-at-house-on-the-hill betrayal-at-house-on-the-hill-board-game-cover"
@@ -38,4 +38,17 @@ main {
     width: 200px;
     border-radius: 65px;
     grid-area: risc-v-logo;
+}
+
+@media (max-width: 1400px) {
+    main {
+        grid-template-areas:
+            "introduction ."
+            "fizzier-fizz ."
+            "fizz-logo ."
+            "betrayal-at-house-on-the-hill ."
+            "betrayal-at-house-on-the-hill-board-game-cover ."
+            "risc-v-assembler ."
+            "risc-v-logo .";
+    }
 }
