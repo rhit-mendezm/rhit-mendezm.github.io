@@ -5,7 +5,6 @@ main>a:active {
 main {
     display: grid;
     grid-template-areas:
-        "greeting greeting greeting"
         "headshot description-of-studies rose-hulman-logo"
         ". experiences kratos-logo"
         ". experiences ventures-logo"
