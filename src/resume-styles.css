@@ -53,6 +53,14 @@ main {
     grid-area: programming-languages;
 }
 
+.resume-download {
+    background-color: blue;
+}
+
+.resume-download:hover {
+    background-color: black;
+}
+
 .table-of-languages {
     margin: auto;
     text-align: center;
