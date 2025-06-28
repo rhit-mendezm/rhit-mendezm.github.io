@@ -9,6 +9,7 @@ main {
         ". extracurriculars ."
         ". aspirations ."
         ". contact-information .";
+    grid-template-rows: repeat(9, auto);
 }
 
 .aspirations {
@@ -97,6 +98,7 @@ main {
             "extracurriculars"
             "aspirations"
             "contact-information";
+        grid-template-rows: repeat(12, auto);
         justify-items: center;
     }
 }
