@@ -70,7 +70,7 @@ main {
 }
 
 .resume-download:hover {
-    background-color: black;
+    color: var(--reddish-brown);
 }
 
 .table-of-languages {
