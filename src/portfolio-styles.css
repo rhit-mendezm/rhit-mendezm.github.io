@@ -2,12 +2,16 @@ main {
     grid-template-areas: 
         ". introduction ."
         "fizz-logo fizzier-fizz ."
-        ". betrayal-at-house-on-the-hill ."
+        ". betrayal-at-house-on-the-hill betrayal-at-house-on-the-hill-board-game-cover"
         ". risc-v-assembler .";
 }
 
 .betrayal-at-house-on-the-hill {
     grid-area: betrayal-at-house-on-the-hill;
+}
+
+.betrayal-at-house-on-the-hill-board-game-cover {
+    grid-area: betrayal-at-house-on-the-hill-board-game-cover;
 }
 
 .fizz-logo {
