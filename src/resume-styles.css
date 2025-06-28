@@ -65,6 +65,10 @@ main {
     background-color: var(--header-and-footer-background-color);
 }
 
+.resume-download:active {
+    background-color: var(--dark-mode-black);
+}
+
 .resume-download:hover {
     background-color: black;
 }
