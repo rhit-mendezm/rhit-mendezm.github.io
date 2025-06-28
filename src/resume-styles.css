@@ -4,9 +4,9 @@ h3 {
 
 main {
     grid-template-areas: 
-    "ubuntu-logo programming-languages almalinux-logo"
-    "openspace-logo internships eramx-logo"
-    ". education .";
+        "ubuntu-logo programming-languages almalinux-logo"
+        "openspace-logo internships eramx-logo"
+        ". education .";
 }
 
 .almalinux-logo {
