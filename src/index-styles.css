@@ -67,6 +67,7 @@ p>a:hover {
 
 .kratos-logo {
     width: 250px;
+    background-color: white;
     grid-area: kratos-logo;
 }
 
