@@ -1,6 +1,7 @@
 main {
     grid-template-areas:
-        "headshot description-of-studies rose-hulman-logo"
+        "headshot description-of-studies ."
+        ". description-of-courses rose-hulman-logo"
         ". experiences kratos-logo"
         ". experiences ventures-logo"
         ". extracurriculars ."
@@ -18,6 +19,10 @@ main {
 
 .description-of-experiences {
     grid-area: description-of-experiences;
+}
+
+.description-of-courses {
+    grid-area: description-of-courses;
 }
 
 .description-of-studies {
@@ -67,7 +72,8 @@ main {
     main {
         grid-template-areas:
             "headshot description-of-studies"
-            ". rose-hulman-logo"
+            "description-of-courses ."
+            "rose-hulman-logo ."
             "experiences ."
             "kratos-logo ventures-logo"
             "extracurriculars ."
