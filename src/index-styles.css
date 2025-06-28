@@ -11,15 +11,15 @@ main {
         ". contact-information .";
 }
 
-p>a {
+p>a, li>a {
     color: var(--reddish-brown);
 }
 
-p>a:active {
+p>a:active, li>a:active {
     background-color: var(--dark-mode-black);
 }
 
-p>a:hover {
+p>a:hover, li>a:hover {
     color: white;
 }
 
