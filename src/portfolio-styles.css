@@ -1,13 +1,17 @@
 main {
     grid-template-areas: 
         ". introduction ."
-        ". fizzier-fizz ."
+        "fizz-logo fizzier-fizz ."
         ". betrayal-at-house-on-the-hill ."
         ". risc-v-assembler .";
 }
 
 .betrayal-at-house-on-the-hill {
     grid-area: betrayal-at-house-on-the-hill;
+}
+
+.fizz-logo {
+    grid-area: fizz-logo;
 }
 
 .fizzier-fizz {
