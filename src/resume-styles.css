@@ -4,9 +4,13 @@ h3 {
 
 main {
     grid-template-areas: 
-    ". programming-languages ."
+    "ubuntu-logo programming-languages almalinux-logo"
     "openspace-logo internships eramx-logo"
     ". education .";
+}
+
+.almalinux-logo {
+    grid-area: almalinux-logo;
 }
 
 .date-range {
@@ -53,4 +57,8 @@ main {
     width: 80%;
     font-size: xx-large;
     border-collapse: collapse;
+}
+
+.ubuntu-logo {
+    grid-area: ubuntu-logo;
 }
