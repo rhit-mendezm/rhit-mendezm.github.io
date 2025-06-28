@@ -10,7 +10,7 @@ main {
         ". experiences ventures-logo"
         ". aspirations .";
     grid-template-columns: 1fr 4fr 1fr;
-    
+
     align-items: center;
     justify-content: center;
 }
@@ -46,7 +46,6 @@ p>a:hover {
 }
 
 .encircled-with-red {
-    border-radius: 400px;
     border: 4px solid var(--reddish-brown);
 }
 
@@ -67,6 +66,7 @@ p>a:hover {
 
 .kratos-logo {
     width: 250px;
+    border-radius: 20px;
     background-color: white;
     grid-area: kratos-logo;
 }
@@ -79,5 +79,7 @@ p>a:hover {
 
 .ventures-logo {
     height: 300px;
+    border-radius: 400px;
+
     grid-area: ventures-logo;
 }
