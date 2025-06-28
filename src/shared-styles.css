@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 main {
@@ -59,11 +59,11 @@ p {
 }
 
 ul {
-    font-size: larger;
+  font-size: larger;
 }
 
 ul>li {
-    font-size: large;
+  font-size: large;
 }
 
 .active-tab {
