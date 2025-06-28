@@ -1,7 +1,9 @@
 main {
     grid-template-areas:
         "headshot description-of-studies ."
-        ". description-of-courses rose-hulman-logo"
+        ". software-quality-assurance rose-hulman-logo"
+        ". web-programming ."
+        ". computer-architecture ."
         ". experiences kratos-logo"
         ". experiences ventures-logo"
         ". extracurriculars ."
@@ -11,6 +13,10 @@ main {
 
 .aspirations {
     grid-area: aspirations;
+}
+
+.computer-architecture {
+    grid-area: computer-architecture;
 }
 
 .contact-information {
@@ -61,6 +67,10 @@ main {
     grid-area: rose-hulman-logo
 }
 
+.software-quality-assurance {
+    grid-area: software-quality-assurance;
+}
+
 .ventures-logo {
     height: 300px;
     border-radius: 400px;
@@ -68,12 +78,17 @@ main {
     grid-area: ventures-logo;
 }
 
+.web-programming {
+    grid-area: web-programming;
+}
+
 @media (max-width: 1400px) {
     main {
         grid-template-areas:
             "headshot description-of-studies"
-            "description-of-courses ."
-            "rose-hulman-logo ."
+            "software-quality-assurance rose-hulman-logo"
+            "web-programming ."
+            "computer-architecture ."
             "experiences ."
             "kratos-logo ventures-logo"
             "extracurriculars ."
