@@ -34,6 +34,11 @@ h1 {
 
 main {
   margin: 0 1rem;
+  display: grid;
+  
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 4fr 1fr;
 }
 
 nav {

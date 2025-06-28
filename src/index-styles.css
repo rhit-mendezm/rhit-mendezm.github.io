@@ -3,16 +3,11 @@ main>a:active {
 }
 
 main {
-    display: grid;
     grid-template-areas:
         "headshot description-of-studies rose-hulman-logo"
         ". experiences kratos-logo"
         ". experiences ventures-logo"
         ". aspirations .";
-    grid-template-columns: 1fr 4fr 1fr;
-
-    align-items: center;
-    justify-content: center;
 }
 
 p>a {
