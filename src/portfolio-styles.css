@@ -11,10 +11,14 @@ main {
 }
 
 .betrayal-at-house-on-the-hill-board-game-cover {
+    width: 250px;
+    border-radius: 35px;
     grid-area: betrayal-at-house-on-the-hill-board-game-cover;
 }
 
 .fizz-logo {
+    width: 150px;
+    border-radius: 100px;
     grid-area: fizz-logo;
 }
 
