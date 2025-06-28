@@ -4,6 +4,7 @@ h3 {
 
 main {
     grid-template-areas: 
+        ". resume-download ."
         "ubuntu-logo programming-languages almalinux-logo"
         "openspace-logo internships eramx-logo"
         ". education .";
@@ -54,7 +55,11 @@ main {
 }
 
 .resume-download {
-    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    background-color: var(--header-and-footer-background-color);
+
+    grid-area: resume-download;
 }
 
 .resume-download:hover {
