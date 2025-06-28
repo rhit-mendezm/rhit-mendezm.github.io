@@ -3,7 +3,7 @@ main {
         ". introduction ."
         "fizz-logo fizzier-fizz ."
         ". betrayal-at-house-on-the-hill betrayal-at-house-on-the-hill-board-game-cover"
-        ". risc-v-assembler .";
+        "risc-v-logo risc-v-assembler .";
 }
 
 .betrayal-at-house-on-the-hill {
@@ -28,4 +28,8 @@ main {
 
 .risc-v-assembler {
     grid-area: risc-v-assembler;
+}
+
+.risc-v-logo {
+    grid-area: risc-v-logo;
 }
