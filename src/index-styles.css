@@ -7,7 +7,8 @@ main {
         "headshot description-of-studies rose-hulman-logo"
         ". experiences kratos-logo"
         ". experiences ventures-logo"
-        ". aspirations .";
+        ". aspirations ."
+        ". contact-information .";
 }
 
 p>a {
@@ -30,6 +31,10 @@ p>a:hover {
 
 .aspirations {
     grid-area: aspirations;
+}
+
+.contact-information {
+    grid-area: contact-information;
 }
 
 .description-of-experiences {
