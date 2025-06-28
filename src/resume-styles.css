@@ -26,6 +26,7 @@ main {
 
 .eramx-logo {
     width: 250px;
+    border-radius: 400px;
     grid-area: eramx-logo;
 }
 
@@ -35,6 +36,7 @@ main {
 
 .openspace-logo {
     width: 250px;
+    border-radius: 400px;
     grid-area: openspace-logo;
 }
 
