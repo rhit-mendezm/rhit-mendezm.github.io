@@ -27,6 +27,10 @@ main {
     text-align: center;
 }
 
+.download-wrapper:active {
+    background-color: var(--dark-mode-black);
+}
+
 .education {
     grid-area: education;
 }
@@ -63,10 +67,6 @@ main {
     font-size: xx-large;
     border-radius: 30px;
     background-color: var(--header-and-footer-background-color);
-}
-
-.resume-download:active {
-    background-color: var(--dark-mode-black);
 }
 
 .resume-download:hover {
