@@ -59,6 +59,7 @@ nav>a {
 
   font-size: 1.5em;
   font-weight: bold;
+  text-align: center;
   text-decoration: none;
   height: 70px;
 }
@@ -111,5 +112,9 @@ ul>li {
 @media (max-width: 600px) {
   main {
     grid-template-columns: 1fr 1fr;
+  }
+  
+  nav>a {
+    font-size: 1.0em;
   }
 }
