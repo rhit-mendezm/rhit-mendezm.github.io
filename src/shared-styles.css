@@ -41,6 +41,10 @@ main {
   grid-template-columns: 1fr 3fr 1fr;
 }
 
+main>a:active {
+    background-color: var(--dark-mode-black);
+}
+
 nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

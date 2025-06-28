@@ -1,7 +1,3 @@
-main>a:active {
-    background-color: var(--dark-mode-black);
-}
-
 main {
     grid-template-areas:
         "headshot description-of-studies rose-hulman-logo"
