@@ -110,11 +110,15 @@ ul>li {
 }
 
 @media (max-width: 600px) {
+  header {
+    width: max-content;
+  }
+  
   main {
     grid-template-columns: 1fr 1fr;
   }
   
   nav>a {
-    font-size: 1.0em;
+    font-size: 1.1em;
   }
 }
