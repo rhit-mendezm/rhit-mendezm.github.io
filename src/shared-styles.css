@@ -84,3 +84,7 @@ ul>li {
     justify-content: center;
     align-items: center;
 }
+
+.encircled-with-red {
+    border: 4px solid var(--reddish-brown);
+}

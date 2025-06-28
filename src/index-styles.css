@@ -39,10 +39,6 @@ p>a:hover, li>a:hover {
     grid-area: description-of-studies;
 }
 
-.encircled-with-red {
-    border: 4px solid var(--reddish-brown);
-}
-
 .experiences {
     grid-area: experiences;
 }
