@@ -69,6 +69,10 @@ main {
     background-color: var(--header-and-footer-background-color);
 }
 
+.resume-download:active {
+    background-color: black;
+}
+
 .resume-download:hover {
     color: var(--reddish-brown);
 }
