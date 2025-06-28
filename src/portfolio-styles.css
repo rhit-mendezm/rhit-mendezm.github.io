@@ -1,0 +1,18 @@
+main {
+    grid-template-areas: 
+        ". fizzier-fizz ."
+        ". betrayal-at-house-on-the-hill ."
+        ". risc-v-assembler .";
+}
+
+.betrayal-at-house-on-the-hill {
+    grid-area: betrayal-at-house-on-the-hill;
+}
+
+.fizzier-fizz {
+    grid-area: fizzier-fizz;
+}
+
+.risc-v-assembler {
+    grid-area: risc-v-assembler;
+}
