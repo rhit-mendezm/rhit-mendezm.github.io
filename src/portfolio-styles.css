@@ -1,5 +1,6 @@
 main {
     grid-template-areas: 
+        ". introduction ."
         ". fizzier-fizz ."
         ". betrayal-at-house-on-the-hill ."
         ". risc-v-assembler .";
@@ -11,6 +12,10 @@ main {
 
 .fizzier-fizz {
     grid-area: fizzier-fizz;
+}
+
+.introduction {
+    grid-area: introduction;
 }
 
 .risc-v-assembler {
