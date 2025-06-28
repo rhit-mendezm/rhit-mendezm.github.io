@@ -9,7 +9,7 @@ h3 {
 main {
     grid-template-areas: 
     ". programming-languages ."
-    ". internships ."
+    "openspace-logo internships eramx-logo"
     ". education .";
 }
 
@@ -28,8 +28,16 @@ main {
     margin: 0;
 }
 
+.eramx-logo {
+    grid-area: eramx-logo;
+}
+
 .internships {
     grid-area: internships;
+}
+
+.openspace-logo {
+    grid-area: openspace-logo;
 }
 
 .programming-languages {
