@@ -3,6 +3,7 @@ main {
         "headshot description-of-studies rose-hulman-logo"
         ". experiences kratos-logo"
         ". experiences ventures-logo"
+        ". extracurriculars ."
         ". aspirations ."
         ". contact-information .";
 }
@@ -37,6 +38,10 @@ p>a:hover, li>a:hover {
 
 .experiences {
     grid-area: experiences;
+}
+
+.extracurriculars {
+    grid-area: extracurriculars;
 }
 
 .greeting {
