@@ -35,5 +35,7 @@ main {
 }
 
 .risc-v-logo {
+    width: 200px;
+    border-radius: 65px;
     grid-area: risc-v-logo;
 }
