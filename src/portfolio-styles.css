@@ -48,10 +48,15 @@ main {
 }
 
 @media (max-width: 1120px) {
+    .betrayal-at-house-on-the-hill-board-game-cover {
+        width: 150px;
+        border-radius: 15px;
+    }
+    
     .fizz-logo {
         width: 120px;
     }
-    
+
     .risc-v-logo {
         width: 130px;
         border-radius: 35px;
