@@ -70,7 +70,9 @@ main {
 .resume-download {
     color: white;
     font-size: xx-large;
+
     border-radius: 30px;
+    padding: 0.3rem 0.5rem;
     background-color: var(--header-and-footer-background-color);
 }
 
@@ -147,5 +149,34 @@ main {
     
     .ubuntu-logo {
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .table-of-languages {
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 570px) {
+    .resume-download {
+        font-size: x-large;
+    } 
+}
+
+@media (max-width: 500px) {
+    .table-of-languages {
+        font-size: larger;
+    }
+}
+
+@media (max-width: 400px) {
+    .resume-download {
+        font-size: large;
+    }
+
+    .table-of-languages {
+        width: 95%;
+        font-size: large;
     }
 }
