@@ -144,7 +144,7 @@ main {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 820px) {
     main {
         grid-template-areas:
             "headshot"
@@ -157,6 +157,8 @@ main {
             "kratos-logo"
             "ventures-logo"
             "extracurriculars"
+            "pi-kappa-alpha-crest"
+            "alpha-phi-omega-crest"
             "aspirations"
             "contact-information";
         justify-items: center;
