@@ -163,4 +163,12 @@ main {
             "contact-information";
         justify-items: center;
     }
+
+    .kratos-logo {
+        margin-bottom: 10px;
+    }
+
+    .pi-kappa-alpha-crest {
+        margin-bottom: 10px;
+    }
 }
