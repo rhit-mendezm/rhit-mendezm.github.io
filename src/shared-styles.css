@@ -109,15 +109,21 @@ ul>li {
   border: 4px solid var(--reddish-brown);
 }
 
+@media (max-width: 1120px) {
+  main {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
 @media (max-width: 600px) {
   header {
     width: max-content;
   }
 
   main {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
   }
-  
+
   nav>a {
     font-size: 1.1em;
   }
