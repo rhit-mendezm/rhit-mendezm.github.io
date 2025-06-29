@@ -28,7 +28,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
 }
 
@@ -122,5 +122,11 @@ ul>li {
 
   nav>a {
     font-size: 1.1em;
+  }
+}
+
+@media (max-width: 565px) {
+  h1 {
+    font-size: 1.8rem;
   }
 }
