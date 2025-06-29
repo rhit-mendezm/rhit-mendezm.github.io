@@ -138,6 +138,10 @@ ul>li {
 }
 
 @media (max-width: 485px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  
   nav>a {
     font-size: 0.8rem;
   }
