@@ -6,9 +6,15 @@ main {
         ". software-quality-assurance ."
         ". web-programming ."
         ". computer-architecture ."
-        ". extracurriculars ."
+        "pi-kappa-alpha-crest extracurriculars alpha-phi-omega-crest"
         ". aspirations ."
         ". contact-information .";
+}
+
+.alpha-phi-omega-crest {
+    width: 250px;
+    border-radius: 90px;
+    grid-area: alpha-phi-omega-crest
 }
 
 .aspirations {
@@ -61,6 +67,12 @@ main {
     grid-area: kratos-logo;
 }
 
+.pi-kappa-alpha-crest {
+    width: 250px;
+    border-radius: 90px;
+    grid-area: pi-kappa-alpha-crest;
+}
+
 .rose-hulman-logo {
     width: 250px;
     border-radius: 90px;
@@ -74,7 +86,6 @@ main {
 .ventures-logo {
     height: 300px;
     border-radius: 400px;
-
     grid-area: ventures-logo;
 }
 
@@ -123,7 +134,8 @@ main {
             "software-quality-assurance software-quality-assurance"
             "web-programming web-programming"
             "computer-architecture computer-architecture"
-            "extracurriculars extracurriculars"
+            "pi-kappa-alpha-crest extracurriculars"
+            "alpha-phi-omega-crest extracurriculars"
             "aspirations aspirations"
             "contact-information contact-information";
     }
