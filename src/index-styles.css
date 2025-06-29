@@ -95,6 +95,7 @@ main {
 @media (max-width: 1450px) {
     .kratos-logo {
         width: 230px;
+        border-radius: 15px;
     }
 
     .rose-hulman-logo {
@@ -110,7 +111,6 @@ main {
 @media (max-width: 1300px) {
     .kratos-logo {
         width: 200px;
-        border-radius: 15px;
     }
 
     .pi-kappa-alpha-crest {
