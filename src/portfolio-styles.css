@@ -40,6 +40,20 @@ main {
     grid-area: risc-v-logo;
 }
 
+@media (max-width: 1300px) {
+    .betrayal-at-house-on-the-hill-board-game-cover {
+        width: 200px;
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .risc-v-logo {
+        width: 130px;
+        border-radius: 35px;
+    }
+}
+
 @media (max-width: 820px) {
     main {
         grid-template-areas:
