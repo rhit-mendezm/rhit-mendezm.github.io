@@ -92,6 +92,17 @@ main {
     grid-area: ubuntu-logo;
 }
 
+@media (max-width: 1120px) {
+    main {
+        grid-template-areas:
+            "ubuntu-logo programming-languages"
+            "almalinux-logo programming-languages"
+            "openspace-logo internships"
+            "eramx-logo internships"
+            "education education";
+    }
+}
+
 @media (max-width: 820px) {
     main {
         grid-template-areas:
