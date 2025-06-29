@@ -47,7 +47,7 @@ main>a:active {
 
 nav {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, auto);
 
   background-color: var(--header-and-footer-background-color);
 }
