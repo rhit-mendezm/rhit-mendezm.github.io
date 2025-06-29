@@ -111,7 +111,7 @@ ul>li {
 
 @media (max-width: 1120px) {
   main {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 1fr 3fr;
   }
 }
 
