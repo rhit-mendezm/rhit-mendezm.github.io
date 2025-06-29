@@ -92,7 +92,7 @@ main {
     grid-area: ubuntu-logo;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 820px) {
     main {
         grid-template-areas:
             "programming-languages"
