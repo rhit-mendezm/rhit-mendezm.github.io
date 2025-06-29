@@ -74,4 +74,13 @@ main {
             "risc-v-assembler"
             "risc-v-logo";
     }
+
+    .betrayal-at-house-on-the-hill-board-game-cover {
+        width: 300px;
+        border-radius: 40px;
+    }
+
+    .risc-v-logo {
+        margin-bottom: 10px;
+    }
 }
