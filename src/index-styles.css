@@ -82,6 +82,53 @@ main {
     grid-area: web-programming;
 }
 
+@media (max-width: 1450px) {
+    .kratos-logo {
+        width: 230px;
+    }
+
+    .rose-hulman-logo {
+        width: 220px;
+        border-radius: 80px;
+    }
+
+    .ventures-logo {
+        width: 250px
+    }
+}
+
+@media (max-width: 1300px) {
+    .kratos-logo {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .rose-hulman-logo {
+        width: 200px;
+        border-radius: 70px;
+    }
+
+    .ventures-logo {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1120px) {
+    main {
+        grid-template-areas:
+            "headshot description-of-studies"
+            "rose-hulman-logo experiences"
+            "kratos-logo experiences"
+            "ventures-logo experiences"
+            "software-quality-assurance software-quality-assurance"
+            "web-programming web-programming"
+            "computer-architecture computer-architecture"
+            "extracurriculars extracurriculars"
+            "aspirations aspirations"
+            "contact-information contact-information";
+    }
+}
+
 @media (max-width: 600px) {
     main {
         grid-template-areas:
@@ -97,7 +144,6 @@ main {
             "extracurriculars"
             "aspirations"
             "contact-information";
-        grid-template-rows: repeat(12, auto);
         justify-items: center;
     }
 }
