@@ -97,6 +97,17 @@ main {
     grid-area: ubuntu-logo;
 }
 
+@media (max-width: 1300px) {
+    .eramx-logo {
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    .openspace-logo {
+        width: 200px;
+    }
+}
+
 @media (max-width: 1120px) {
     main {
         grid-template-areas:
@@ -106,6 +117,14 @@ main {
             "openspace-logo internships"
             "eramx-logo internships"
             "education education";
+    }
+
+    .eramx-logo {
+        width: 180px;
+    }
+
+    .openspace-logo {
+        width: 180px;
     }
 }
 
@@ -120,5 +139,13 @@ main {
             "openspace-logo"
             "eramx-logo"
             "education";
+    }
+
+    .openspace-logo {
+        margin-bottom: 10px;
+    }
+    
+    .ubuntu-logo {
+        margin-bottom: 10px;
     }
 }
