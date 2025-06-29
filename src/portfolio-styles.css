@@ -48,6 +48,10 @@ main {
 }
 
 @media (max-width: 1120px) {
+    .fizz-logo {
+        width: 120px;
+    }
+    
     .risc-v-logo {
         width: 130px;
         border-radius: 35px;
