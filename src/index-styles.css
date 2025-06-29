@@ -1,15 +1,14 @@
 main {
     grid-template-areas:
-        "headshot description-of-studies ."
-        ". software-quality-assurance rose-hulman-logo"
-        ". web-programming ."
-        ". computer-architecture ."
+        "headshot description-of-studies rose-hulman-logo"
         ". experiences kratos-logo"
         ". experiences ventures-logo"
+        ". software-quality-assurance ."
+        ". web-programming ."
+        ". computer-architecture ."
         ". extracurriculars ."
         ". aspirations ."
         ". contact-information .";
-    grid-template-rows: repeat(9, auto);
 }
 
 .aspirations {
