@@ -123,10 +123,24 @@ ul>li {
   nav>a {
     font-size: 1.1em;
   }
+
+  .kratos-logo {
+    margin-bottom: 10px;
+  }
+
+  .pi-kappa-alpha {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 565px) {
   h1 {
     font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 515px) {
+  nav>a {
+    font-size: 1rem;    
   }
 }
