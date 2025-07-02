@@ -134,8 +134,27 @@
     <a href="https://riscv.org/" target="_blank" class="anchor-with-image">
       <img src="./public/images/risc-v-logo.png" alt="RISC-V logo" class="risc-v-logo encircled-with-red">
     </a>
-    
-    <!-- TODO: Add kebab2snake tool with test suite and add it to GitHub -->
+
+    <section class="kebab2snake">
+      <h3>Linux tool: kebab2snake</h3>
+      <p>
+        While working in AlmaLinux with Neovim, I developed kebab2snake, a shell tool that converts file and directory
+        names from kebab case (this-is-kebab-case) to snake case (this_is_snake_case). I learned that underscores are
+        generally safer than hyphens—hyphens can be misinterpreted as flags in shell commands, and in most programming
+        languages, they are treated as subtraction operators.
+      </p>
+      <p>
+        This was the first tool I wrote entirely in shell, and I am especially proud of the test coverage I built for
+        it. The tool supports a --silent flag to suppress output and a --max-level flag to control recursion depth when
+        renaming directories.
+      </p>
+      <p>
+        👉 View the 
+        <a href="https://github.com/rhit-mendezm/personal-projects/tree/main/kebab2snake" target="_blank">
+          <strong>code and test suite on GitHub</strong>.
+        </a>
+      </p>
+    </section>
 
   </main>
 

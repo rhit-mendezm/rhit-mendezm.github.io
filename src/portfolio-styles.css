@@ -3,7 +3,8 @@ main {
         ". introduction ."
         "fizz-logo fizzier-fizz ."
         ". betrayal-at-house-on-the-hill betrayal-at-house-on-the-hill-board-game-cover"
-        "risc-v-logo risc-v-assembler .";
+        "risc-v-logo risc-v-assembler ."
+        ". kebab2snake .";
 }
 
 .betrayal-at-house-on-the-hill {
@@ -28,6 +29,10 @@ main {
 
 .introduction {
     grid-area: introduction;
+}
+
+.kebab2snake {
+    grid-area: kebab2snake;
 }
 
 .risc-v-assembler {
@@ -72,7 +77,8 @@ main {
             "betrayal-at-house-on-the-hill"
             "betrayal-at-house-on-the-hill-board-game-cover"
             "risc-v-assembler"
-            "risc-v-logo";
+            "risc-v-logo"
+            "kebab2snake";
     }
 
     .betrayal-at-house-on-the-hill-board-game-cover {
