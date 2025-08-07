@@ -2,9 +2,9 @@ main {
     grid-template-areas:
         "headshot description-of-studies rose-hulman-logo"
         "kratos-logo experiences ventures-logo"
-        "software-quality-assurance software-quality-assurance software-quality-assurance"
-        "web-programming web-programming web-programming"
-        "computer-architecture computer-architecture computer-architecture"
+        ". software-quality-assurance ."
+        ". web-programming ."
+        ". computer-architecture ."
         "pi-kappa-alpha-crest extracurriculars alpha-phi-omega-crest"
         ". aspirations ."
         ". contact-information .";
