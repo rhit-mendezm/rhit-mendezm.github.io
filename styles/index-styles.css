@@ -1,174 +1,134 @@
 main {
-    grid-template-areas:
-        "headshot description-of-studies rose-hulman-logo"
-        "kratos-logo experiences ventures-logo"
-        ". software-quality-assurance ."
-        ". web-programming ."
-        ". computer-architecture ."
-        "pi-kappa-alpha-crest extracurriculars alpha-phi-omega-crest"
-        ". aspirations ."
-        ". contact-information .";
+  grid-template-areas:
+    "headshot description-of-studies rose-hulman-logo"
+    "kratos-logo experiences ventures-logo"
+    "pi-kappa-alpha-crest extracurriculars alpha-phi-omega-crest"
+    ". contact-information .";
 }
 
 .alpha-phi-omega-crest {
-    height: 250px;
-    border-radius: 90px;
-    grid-area: alpha-phi-omega-crest
-}
-
-.aspirations {
-    grid-area: aspirations;
-}
-
-.computer-architecture {
-    grid-area: computer-architecture;
+  height: 250px;
+  border-radius: 90px;
+  grid-area: alpha-phi-omega-crest
 }
 
 .contact-information {
-    grid-area: contact-information;
-}
-
-.description-of-experiences {
-    grid-area: description-of-experiences;
-}
-
-.description-of-courses {
-    grid-area: description-of-courses;
+  grid-area: contact-information;
 }
 
 .description-of-studies {
-    grid-area: description-of-studies;
+  grid-area: description-of-studies;
 }
 
 .experiences {
-    grid-area: experiences;
+  grid-area: experiences;
 }
 
 .extracurriculars {
-    grid-area: extracurriculars;
-}
-
-.greeting {
-    grid-area: greeting;
+  grid-area: extracurriculars;
 }
 
 .headshot {
-    height: 300px;
-    border-radius: 400px;
-    align-self: flex-start;
-    grid-area: headshot;
+  height: 300px;
+  border-radius: 400px;
+  align-self: flex-start;
+  grid-area: headshot;
 }
 
 .kratos-logo {
-    width: 250px;
-    border-radius: 130px;
-    background-color: white;
-    grid-area: kratos-logo;
+  width: 250px;
+  border-radius: 130px;
+  background-color: white;
+  grid-area: kratos-logo;
 }
 
 .pi-kappa-alpha-crest {
-    width: 250px;
-    border-radius: 130px;
-    grid-area: pi-kappa-alpha-crest;
+  width: 250px;
+  border-radius: 130px;
+  grid-area: pi-kappa-alpha-crest;
 }
 
 .rose-hulman-logo {
-    width: 250px;
-    border-radius: 90px;
-    grid-area: rose-hulman-logo
-}
-
-.software-quality-assurance {
-    grid-area: software-quality-assurance;
+  width: 250px;
+  border-radius: 90px;
+  grid-area: rose-hulman-logo
 }
 
 .ventures-logo {
-    height: 300px;
-    border-radius: 400px;
-    grid-area: ventures-logo;
-}
-
-.web-programming {
-    grid-area: web-programming;
+  height: 300px;
+  border-radius: 400px;
+  grid-area: ventures-logo;
 }
 
 @media (max-width: 1450px) {
-    .kratos-logo {
-        width: 230px;
-        border-radius: 15px;
-    }
+  .kratos-logo {
+    width: 230px;
+    border-radius: 15px;
+  }
 
-    .rose-hulman-logo {
-        width: 220px;
-        border-radius: 80px;
-    }
+  .rose-hulman-logo {
+    width: 220px;
+    border-radius: 80px;
+  }
 
-    .ventures-logo {
-        height: 250px
-    }
+  .ventures-logo {
+    height: 250px
+  }
 }
 
 @media (max-width: 1300px) {
-    .kratos-logo {
-        width: 200px;
-    }
+  .kratos-logo {
+    width: 200px;
+  }
 
-    .pi-kappa-alpha-crest {
-        width: 200px;
-    }
+  .pi-kappa-alpha-crest {
+    width: 200px;
+  }
 
-    .rose-hulman-logo {
-        width: 200px;
-        border-radius: 70px;
-    }
+  .rose-hulman-logo {
+    width: 200px;
+    border-radius: 70px;
+  }
 
-    .ventures-logo {
-        height: 200px;
-    }
+  .ventures-logo {
+    height: 200px;
+  }
 }
 
 @media (max-width: 1120px) {
-    main {
-        grid-template-areas:
-            "headshot description-of-studies"
-            "rose-hulman-logo experiences"
-            "kratos-logo experiences"
-            "ventures-logo experiences"
-            "software-quality-assurance software-quality-assurance"
-            "web-programming web-programming"
-            "computer-architecture computer-architecture"
-            "pi-kappa-alpha-crest extracurriculars"
-            "alpha-phi-omega-crest extracurriculars"
-            "aspirations aspirations"
-            "contact-information contact-information";
-    }
+  main {
+    grid-template-areas:
+      "headshot description-of-studies"
+      "rose-hulman-logo experiences"
+      "kratos-logo experiences"
+      "ventures-logo experiences"
+      "pi-kappa-alpha-crest extracurriculars"
+      "alpha-phi-omega-crest extracurriculars"
+      "contact-information contact-information";
+  }
 }
 
 @media (max-width: 820px) {
-    main {
-        grid-template-areas:
-            "headshot"
-            "description-of-studies"
-            "rose-hulman-logo"
-            "software-quality-assurance"
-            "web-programming"
-            "computer-architecture"
-            "experiences"
-            "kratos-logo"
-            "ventures-logo"
-            "extracurriculars"
-            "pi-kappa-alpha-crest"
-            "alpha-phi-omega-crest"
-            "aspirations"
-            "contact-information";
-        justify-items: center;
-    }
+  main {
+    grid-template-areas:
+      "headshot"
+      "description-of-studies"
+      "rose-hulman-logo"
+      "experiences"
+      "kratos-logo"
+      "ventures-logo"
+      "extracurriculars"
+      "pi-kappa-alpha-crest"
+      "alpha-phi-omega-crest"
+      "contact-information";
+    justify-items: center;
+  }
 
-    .kratos-logo {
-        margin-bottom: 10px;
-    }
+  .kratos-logo {
+    margin-bottom: 10px;
+  }
 
-    .pi-kappa-alpha-crest {
-        margin-bottom: 10px;
-    }
+  .pi-kappa-alpha-crest {
+    margin-bottom: 10px;
+  }
 }

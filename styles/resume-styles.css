@@ -5,15 +5,7 @@ h3 {
 main {
   grid-template-areas:
     "languages-i-love-header languages-i-love-header languages-i-love-header"
-    "ubuntu-logo programming-languages"
-    "internships"
-    ". education .";
-}
-
-.date-range {
-  font-size: large;
-  font-style: italic;
-  margin: 0;
+    "ubuntu-logo programming-languages ."
 }
 
 .download-wrapper {
@@ -23,19 +15,6 @@ main {
 
 .download-wrapper:active {
   background-color: var(--dark-mode-black);
-}
-
-.education {
-  grid-area: education;
-}
-
-.employer-name {
-  font-size: large;
-  margin: 0;
-}
-
-.internships {
-  grid-area: internships;
 }
 
 .languages-i-love-header {
@@ -84,9 +63,6 @@ main {
       "languages-i-love-header languages-i-love-header"
       "ubuntu-logo programming-languages"
       "programming-languages"
-      "internships"
-      "internships"
-      "education education";
   }
 }
 
@@ -96,8 +72,6 @@ main {
       "languages-i-love-header"
       "programming-languages"
       "ubuntu-logo"
-      "internships"
-      "education";
   }
 
   .ubuntu-logo {
