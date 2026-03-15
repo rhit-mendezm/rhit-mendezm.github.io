@@ -1,182 +1,135 @@
 h3 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 main {
-    grid-template-areas:
-        "languages-i-love-header languages-i-love-header languages-i-love-header"
-        "ubuntu-logo programming-languages almalinux-logo"
-        "openspace-logo internships eramx-logo"
-        ". education .";
-}
-
-.almalinux-logo {
-    width: 200px;
-    border-radius: 70px;
-    background-color: white;
-    grid-area: almalinux-logo;
+  grid-template-areas:
+    "languages-i-love-header languages-i-love-header languages-i-love-header"
+    "ubuntu-logo programming-languages"
+    "internships"
+    ". education .";
 }
 
 .date-range {
-    font-size: large;
-    font-style: italic;
-    margin: 0;
+  font-size: large;
+  font-style: italic;
+  margin: 0;
 }
 
 .download-wrapper {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .download-wrapper:active {
-    background-color: var(--dark-mode-black);
+  background-color: var(--dark-mode-black);
 }
 
 .education {
-    grid-area: education;
+  grid-area: education;
 }
 
 .employer-name {
-    font-size: large;
-    margin: 0;
-}
-
-.eramx-logo {
-    width: 250px;
-    border-radius: 30px;
-    background-color: black;
-    grid-area: eramx-logo;
+  font-size: large;
+  margin: 0;
 }
 
 .internships {
-    grid-area: internships;
+  grid-area: internships;
 }
 
 .languages-i-love-header {
-    grid-area: languages-i-love-header;
-}
-
-.openspace-logo {
-    width: 250px;
-    border-radius: 15px;
-    background-color: black;
-    grid-area: openspace-logo;
+  grid-area: languages-i-love-header;
 }
 
 .programming-languages {
-    grid-area: programming-languages;
+  grid-area: programming-languages;
 }
 
 .resume-download {
-    color: white;
-    font-size: xx-large;
+  color: white;
+  font-size: xx-large;
 
-    border-radius: 30px;
-    padding: 0.3rem 0.5rem;
-    background-color: var(--header-and-footer-background-color);
+  border-radius: 30px;
+  padding: 0.3rem 0.5rem;
+  background-color: var(--header-and-footer-background-color);
 }
 
 .resume-download:active {
-    background-color: black;
+  background-color: black;
 }
 
 .resume-download:hover {
-    color: var(--reddish-brown);
+  color: var(--reddish-brown);
 }
 
 .table-of-languages {
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
 
-    width: 80%;
-    font-size: xx-large;
-    border-collapse: collapse;
+  width: 80%;
+  font-size: xx-large;
+  border-collapse: collapse;
 }
 
 .ubuntu-logo {
-    width: 100px;
-    border-radius: 80px;
-    grid-area: ubuntu-logo;
-}
-
-@media (max-width: 1300px) {
-    .eramx-logo {
-        width: 200px;
-        border-radius: 20px;
-    }
-
-    .openspace-logo {
-        width: 200px;
-    }
+  width: 100px;
+  border-radius: 80px;
+  grid-area: ubuntu-logo;
 }
 
 @media (max-width: 1120px) {
-    main {
-        grid-template-areas:
-            "languages-i-love-header languages-i-love-header"
-            "ubuntu-logo programming-languages"
-            "almalinux-logo programming-languages"
-            "openspace-logo internships"
-            "eramx-logo internships"
-            "education education";
-    }
-
-    .eramx-logo {
-        width: 180px;
-    }
-
-    .openspace-logo {
-        width: 180px;
-    }
+  main {
+    grid-template-areas:
+      "languages-i-love-header languages-i-love-header"
+      "ubuntu-logo programming-languages"
+      "programming-languages"
+      "internships"
+      "internships"
+      "education education";
+  }
 }
 
 @media (max-width: 820px) {
-    main {
-        grid-template-areas:
-            "languages-i-love-header"
-            "programming-languages"
-            "ubuntu-logo"
-            "almalinux-logo"
-            "internships"
-            "openspace-logo"
-            "eramx-logo"
-            "education";
-    }
+  main {
+    grid-template-areas:
+      "languages-i-love-header"
+      "programming-languages"
+      "ubuntu-logo"
+      "internships"
+      "education";
+  }
 
-    .openspace-logo {
-        margin-bottom: 10px;
-    }
-    
-    .ubuntu-logo {
-        margin-bottom: 10px;
-    }
+  .ubuntu-logo {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 700px) {
-    .table-of-languages {
-        font-size: x-large;
-    }
+  .table-of-languages {
+    font-size: x-large;
+  }
 }
 
 @media (max-width: 570px) {
-    .resume-download {
-        font-size: x-large;
-    } 
+  .resume-download {
+    font-size: x-large;
+  }
 }
 
 @media (max-width: 500px) {
-    .table-of-languages {
-        font-size: larger;
-    }
+  .table-of-languages {
+    font-size: larger;
+  }
 }
 
 @media (max-width: 400px) {
-    .resume-download {
-        font-size: large;
-    }
+  .resume-download {
+    font-size: large;
+  }
 
-    .table-of-languages {
-        width: 95%;
-        font-size: large;
-    }
+  .table-of-languages {
+    width: 95%;
+    font-size: large;
+  }
 }

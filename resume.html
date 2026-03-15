@@ -1,221 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>📄 Marlon's Résumé</title>
-  <link rel="icon" href="./assets/initials.ico">
-  <link rel="stylesheet" href="./styles/shared-styles.css">
-  <link rel="stylesheet" href="./styles/resume-styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>📄 Marlon's Résumé</title>
+		<link rel="icon" href="./assets/initials.ico">
+		<link rel="stylesheet" href="./styles/shared-styles.css">
+		<link rel="stylesheet" href="./styles/resume-styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	</head>
 
-<body>
-  <header>
-    <nav>
-      <a href="./resume.html" target="_self" class="active-tab">📄 Marlon's Résumé</a>
-      <a href="./index.html" target="_self">ℹ️ About Marlon</a>
-      <a href="./portfolio.html" target="_self">🎨 Marlon's Portfolio</a>
-    </nav>
+	<body>
+		<header>
+			<nav>
+				<a href="./resume.html" target="_self" class="active-tab">📄 Marlon's Résumé</a>
+				<a href="./index.html" target="_self">ℹ️ About Marlon</a>
+				<a href="./portfolio.html" target="_self">🎨 Marlon's Portfolio</a>
+			</nav>
 
-    <h1>🖋️ Résumé: Engineering and Education Experience 🖥️</h1>
-    <a href="./assets/resume.pdf" download="Marlon O. Mendez-Yanez - Software Engineering - Resume.pdf"
-      class="download-wrapper">
-      <button type="button" class="resume-download">⬇️ Download my Résumé</button>
-    </a>
-  </header>
+			<h1>🖋️ Résumé: Engineering and Education Experience 🖥️</h1>
+			<a href="./assets/resume.pdf" download="Marlon O. Mendez-Yanez - Software Engineering - Resume.pdf" class="download-wrapper">
+				<!-- TODO: Move button outside anchor element -->
+				<button type="button" class="resume-download">⬇️ Download my Résumé</button>
+			</a>
+		</header>
 
-  <!-- TODO: Display resume in window inside website -->
+		<!-- TODO: Display resume in window inside website -->
 
-  <main>
+		<main>
 
-    <section class="languages-i-love-header">  
-      <h2>🧠 Languages I Love (and Why)</h2>
-      <table class="table-of-languages">
-        <tr>
-          <td>☕ Java</td>
-          <td>🐍 Python</td>
-          <td>🌐 JavaScript</td>
-        </tr>
-        <tr>
-          <td>🔧 C</td>
-          <td>🗃️ SQL</td>
-          <td>🐚 Shell</td>
-        </tr>
-      </table>
-    </section>
-    
-    <section class="programming-languages">
-      <p>
-        Above is a list of my favorite programming languages. My coding journey began in middle school with Scratch, but
-        I was first introduced to a "real" programming language Python during my freshman year at Rose-Hulman. While
-        Python was my starting point, Java has become my favorite. Through Java, I explored key software design
-        principles like encapsulation, abstraction, inheritance, and SOLID principles such as the Open/Closed Principle,
-        Dependency Inversion, and Single Responsibility Principle. These concepts deepened my appreciation for clean and
-        maintainable code.
-      </p>
-      <p>
-        Beyond Java and Python, I've also worked with Shell, SQL, and C. I used Shell scripting to automate repetitive
-        tasks and streamline my personal workflows, which has helped me appreciate the power of command-line tools. With
-        SQL, I've designed and queried relational databases, gaining a solid understanding of data modeling and
-        integrity. My experience with C has been particularly valuable for learning about low-level programming and
-        memory management. In the upcoming
-        winter term, I'll be deepening my knowledge of C when I take the Operating Systems course.
-      </p>
-      <p>
-        Although not listed here, I'm also familiar with HTML and CSS. While HTML is technically a language (it's in the
-        name — HyperText Markup <em>Language</em>), I chose to omit it along with CSS because they're relatively
-        straightforward to learn. That said, I recognize the design challenges in front-end development that highlight
-        their power. For example, using semantic HTML elements, avoiding inline styles in favor of CSS files,
-        centralizing shared values in the root element, and organizing the DOM for clean, readable JavaScript all
-        contribute to robust and scalable front-end systems. I encountered many of these design considerations firsthand
-        while building this website, which gave me a deeper appreciation for thoughtful front-end architecture!
-      </p>
+			<section class="languages-i-love-header">
+				<h2>🧠 Languages I Love (and Why)</h2>
+				<table class="table-of-languages">
+					<tr>
+						<td>☕ Java</td>
+						<td>🐍 Python</td>
+						<td>🌐 JavaScript</td>
+					</tr>
+					<tr>
+						<td>🔧 C</td>
+						<td>🗃️ SQL</td>
+						<td>🐚 Shell</td>
+					</tr>
+				</table>
+			</section>
 
+			<section class="programming-languages">
+				<p>
+					Above is a list of my favorite programming languages. My coding journey began in middle school with Scratch, but
+					I was first introduced to a "real" programming language during my freshman year at Rose-Hulman. Python was my starting
+					point, but Java is my favorite. With Java, I learned key software design principles like encapsulation,
+					abstraction, inheritance, and principles like the Open/Closed Principle, Dependency Inversion, and Single
+					Responsibility Principle.
+				</p>
+				<p>
+					Beyond Java and Python, I've also worked with Shell, SQL, and C. I used Shell scripting to automate repetitive
+					tasks. With SQL, I've designed relational databases. My experience with C has been particularly valuable for
+					learning about low-level programming and memory management.
+				</p>
+				<p>
+					Although not listed here, I'm also familiar with HTML and CSS. While HTML is technically a language (it's in the
+					name — HyperText Markup <em>Language</em>), I chose to omit it along with CSS because they're relatively
+					straightforward to learn. That said, I recognize the design challenges in front-end development that highlight
+					their power. For example, using semantic HTML elements, avoiding inline styles in favor of CSS files,
+					centralizing shared values in the root element, and organizing the DOM for clean readable JavaScript.
+					I encountered many of these design considerations firsthand while building this website, actually!
+				</p>
 
-      <h2>🐧 My Linux Journey: From Shell Commands to Neovim</h2>
-      <p>
-        I began working with Linux in 2024, and I am familiar with common Shell commands like grep, less, cut, etc. and
-        the redirection and pipe operators. Since then, I have configured my Neovim setup to edit files, so I would say
-        my favorite text editor is Neovim, but my favorite IDE is VSCode. Regarding Linux distributions, I am most
-        familiar with Ubuntu and AlmaLinux.
-      </p>
-      <p>
-        In the future, I want to learn more about the permissions aspect inside a Linux environment, so I hope to
-        obtain a work experience that allows me to explore that area of Linux at some point!
-      </p>
-    </section>
+				<h2>🐧 My Linux Journey: From Shell Commands to Neovim</h2>
+				<p>
+					I began working with Linux in 2024, and I am familiar with common Shell commands and the redirection and pipe
+					operators. Since then, I have used Neovim as my text editor with the LazyVim plugin. I am most familiar with
+					Ubuntu and PowerShell.
+				</p>
+			</section>
 
-    <a href="https://ubuntu.com/about" target="_blank" class="anchor-with-image">
-      <img src="./assets/images/ubuntu-logo.png" alt="Ubuntu logo" class="ubuntu-logo encircled-with-red">
-    </a>
+			<a href="https://ubuntu.com/about" target="_blank" class="anchor-with-image">
+				<img src="./assets/images/ubuntu-logo.png" alt="Ubuntu logo" class="ubuntu-logo encircled-with-red">
+			</a>
 
-    <a href="https://almalinux.org/" target="_blank" class="anchor-with-image">
-      <img src="./assets/images/almalinux-logo.png" alt="AlmaLinux logo" class="almalinux-logo encircled-with-red">
-    </a>
+			<!-- TODO: Add graduation photo with a caption; ideally, it is in portrait mode. -->
+		</main>
 
-    <section class="internships">
-      <h2>🌍 Real-World Impact: My Software Engineering Internships</h2>
-
-      <h3>Software Engineering Intern for Solutions Architecture Team</h3>
-      <p class="employer-name">
-        <a href="https://www.kratosdefense.com" target="_blank">
-          Kratos Defense & Security Solutions
-        </a>
-      </p>
-      <p class="date-range">June 2025 - August 2025</p>
-
-      <ul>
-        <li>Designed and implemented middleware that connected satellite hardware to a centralized management interface, 
-          <a href="https://www.kratosdefense.com/systems-and-platforms/space-systems/dynamic-ground/platform"
-            target="_blank"><strong>OpenSpace</strong>
-          </a>
-        </li>
-
-        <li>Achieved 100% test code coverage across 108 unit and integration tests</li>
-        <li>Leveraged the Mockito testing framework to rigorously validate 7 Java classes, covering a total of 1,178 lines of code</li>
-      </ul>
-
-      <p>
-        During my internship at Kratos, I worked on mission-critical software for satellite ground systems. I took the initiative to
-        redesign middleware for the 
-        <a href="https://www.kratosdefense.com/systems-and-platforms/space-systems/dynamic-ground/platform" target="_blank">
-          <strong>OpenSpace platform</strong></a>, which enabled real-time communication between satellite devices and their 
-        management interface. I also led testing efforts - achieving full code coverage with the Mockito testing framework. At the end of
-        the internship, I delivered a 15-minute presentation to senior leadership to showcase my technical contributions and their relevance 
-        to Kratos's broader mission statement. This experience deepened my understanding of high-reliability systems and sharpened my skills
-        in Java development and automated testing.
-      </p>
-
-      <h3>Software Engineering Intern for eRAMx</h3>
-      <p class="employer-name">
-        <a href="https://www.rhventures.org" target="_blank">
-          Rose-Hulman Ventures
-        </a>
-      </p>
-      <p class="date-range">February 2025 - May 2025</p>
-
-      <ul>
-        <li>Engineered a full-stack web application to facilitate the monitoring and support of patients pursuing
-          sobriety,
-          <a href="https://www.rhventures.org/remote-medication-monitoring-app/" target="_blank">
-            <strong>eRAMx</strong>
-          </a>
-        </li>
-
-        <li>Migrated an outdated system to ASP.NET using C# and utilized a scalable SQL database to manage patient records</li>
-        <li>Spearheaded the adoption of the xUnit testing framework to automatically unit test code</li>
-      </ul>
-
-      <p>
-        I joined Rose-Hulman Ventures during the Winter Quarter of my junior year - stepping into my first formal software engineering
-        role while balancing a full academic schedule. My primary project was
-        <a href="https://www.rhventures.org/remote-medication-monitoring-app/" target="_blank"><strong>eRAMx</strong></a>, a full-stack
-        medical web application designed to support thousands of patients in recovery from illicit substance use. I modernized the platform
-        by migrating its legacy system to ASP.NET with C# and utilized a large SQL database to manage patient records. I also led the
-        initiative to implement automated unit testing using the xUnit framework. This experience not only strengthened my technical 
-        foundation but also taught me how to stay mission-driven, communicate effectively within a team, and find purpose in the details 
-        of my work.
-      </p>
-    </section>
-
-    <a href="https://www.kratosdefense.com/systems-and-platforms/space-systems/dynamic-ground/platform" target="_blank"
-      class="anchor-with-image">
-      <img src="./assets/images/openspace-logo.png" alt="OpenSpace logo" class="openspace-logo encircled-with-red">
-    </a>
-
-    <a href="https://www.rhventures.org/remote-medication-monitoring-app/" target="_blank" class="anchor-with-image">
-      <img src="./assets/images/eramx-logo.png" alt="eRAMx logo" class="eramx-logo encircled-with-red">
-    </a>
-
-    <section class="education">
-      <h2>🧑‍🎓 Education Experience</h2>
-
-      <h3>Rose-Hulman Institute of Technology</h3>
-      <p class="date-range">August 2022 - May 2026</p>
-      <ul>
-        <li>B.S. of Software Engineering</li>
-        <li>Minor in Spanish</li>
-        <li><strong>GPA:</strong> 3.51/4.00</li>
-      </ul>
-
-      <p>
-        Rose-Hulman was more than just my first step into college — it was my first real leap into independence. Ten
-        hours
-        from home, I arrived in the fall of 2022 with more energy than direction, greeting everyone I passed — students,
-        professors, even the folks in the cafeteria.
-      </p>
-      <p>
-        Somewhere between group projects, late-night brainstorming, and spontaneous hallway conversations, I found my
-        people. Friends who challenged me, inspired me, and shared a belief in constant self-improvement.
-      </p>
-      <p>
-        Now, in 2025, I'm heading into my final year with a deep sense of growth. I've evolved — personally and
-        professionally — and I'm especially proud of the opportunity I've had to mentor the young men who were willing
-        to take a chance on me. Their trust has been one of the most meaningful parts of my journey.
-      </p>
-      <p>
-        Saying goodbye to close friends will be a bittersweet moment — one that leaves a noticeable void in the rhythm
-        of daily life. Still, I carry confidence in the foundation we've built at Rose. Whether the challenges ahead are
-        technical or personal, I believe we're well-equipped to meet them with resilience and purpose.
-      </p>
-    </section>
-
-    <!-- TODO: Add graduation photo; ideally, it is in portrait mode. -->
-
-  </main>
-
-  <footer>
-    <nav>
-      <a href="https://rose-hulman.joinhandshake.com/profiles/marlon-mendez-yanez" target="_blank"><i
-          class="fas fa-handshake"></i>Marlon's Handshake</a>
-      <a href="https://www.linkedin.com/in/marlon-mendez-yanez/" target="_blank"><i class="fab fa-linkedin"></i>Marlon's
-        LinkedIn</a>
-      <a href="https://github.com/rhit-mendezm/personal-projects/tree/main" target="_blank"><i
-          class="fab fa-github"></i>Marlon's GitHub</a>
-    </nav>
-  </footer>
-</body>
-
+		<footer>
+			<nav>
+				<a href="https://rose-hulman.joinhandshake.com/profiles/marlon-mendez-yanez" target="_blank"><i class="fas fa-handshake"></i>Marlon's Handshake</a>
+				<a href="https://www.linkedin.com/in/marlon-mendez-yanez/" target="_blank"><i class="fab fa-linkedin"></i>Marlon's
+				LinkedIn</a>
+				<a href="https://github.com/rhit-mendezm/personal-projects/tree/main" target="_blank"><i class="fab fa-github"></i>Marlon's GitHub</a>
+			</nav>
+		</footer>
+	</body>
 </html>
