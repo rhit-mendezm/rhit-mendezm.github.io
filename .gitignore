@@ -1,5 +1,6 @@
 # Workspace settings
 .vscode/
+*.toml
 
 # Miscellaneous
 *.Identifier
